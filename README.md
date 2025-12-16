@@ -1,2 +1,2 @@
 # cppbyexample
-C++ 20 by example
+Practice C++ 20 by examples from https://www.cbyexample.com/#hello-world
