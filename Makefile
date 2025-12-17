@@ -21,8 +21,8 @@ $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
 # Build main executable from main.cpp (which includes src/containers.cpp)
-$(TARGET): main.cpp
-	$(CXX) $(CXXFLAGS) main.cpp -o $(TARGET)
+$(TARGET): src/main.cpp
+	$(CXX) $(CXXFLAGS) src/main.cpp -o $(TARGET)
 
 # Clean build artifacts
 clean:
