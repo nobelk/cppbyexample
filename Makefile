@@ -1,6 +1,6 @@
 # Compiler settings
 CXX = clang++
-CXXFLAGS = -std=c++2a -Wall -Wextra -pedantic
+CXXFLAGS = -Wall -Wextra -pedantic
 LDFLAGS =
 
 # Directories
